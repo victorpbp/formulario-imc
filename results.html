@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Formulário para IMC</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1>Olá, <span id="nome">nome da pessoa</span></h1>
+
+  <p>O valor de seu IMC é: <span id="valor"></span></p> </br>
+
+  <h3>Aqui está uma tabela para checar sua classificação com base no valor do IMC:</h2>
+  
+  <table>
+  <tr>
+    <th>Classificação</th>
+    <th>IMC (kg/m²)</th>
+    <th>Risco de Comorbidades</th>
+  </tr>
+  <tr>
+    <td>Baixo peso</td>
+    <td>&lt;18.5</td>
+    <td>Baixo</td>
+  </tr>
+  <tr>
+    <td>Peso normal</td>
+    <td>18.5-24.9</td>
+    <td>Médio</td>
+  </tr>
+  <tr>
+    <td>Pré-obeso</td>
+    <td>25.0-29.9</td>
+    <td>Aumentado</td>
+  </tr>
+  <tr>
+    <td>Obeso I</td>
+    <td>30.0-34.9</td>
+    <td>Moderado</td>
+  </tr>
+  <tr>
+    <td>Obeso II</td>
+    <td>35.0-39.9</td>
+    <td>Grave</td>
+  </tr>
+  <tr>
+    <td>Obeso III</td>
+    <td>&ge;40.0</td>
+    <td>Muito grave</td>
+  </tr>
+</table>
+  
+  <script src="scriptresults.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
